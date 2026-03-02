@@ -1,18 +1,27 @@
-*/config/development
-*/logs/log-*.php
-!*/logs/index.html
-*/cache/*
-!system/cache/*
-!*/cache/index.html
-!*/cache/.htaccess
+# CodeIgniter 4 Ignored Files
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+# Logs
+tmp/
+logs/
 
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
-/vendor/
+# Cache
+cache/
+
+# Config
+app/Config/Cache.php
+
+# Application files
+app/Config/Constants.php
+
+# Composer
+vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+
+# Miscellaneous
+.DS_Store
+*.swp
+*.swo
